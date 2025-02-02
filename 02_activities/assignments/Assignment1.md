@@ -205,5 +205,5 @@ Consider, for example, concepts of fariness, inequality, social structures, marg
 
 
 ```
-Your thoughts...
+Databases used for identification are often designed to accommodate only white, Western names, typically assuming that individuals will have a first name, middle name, and last name. These systems sometimes include autodetection of those fields and impose limitations on the number and type of characters allowed. As a result, people with complex, composed, or culturally diverse names, particularly those with special characters, are forced to adapt by modifying their names, either by removing parts or merging them. Examples of this issue can be found in institutions like banks, airlines, hospitals, and schools. This often comes with a lack of support or training to address such diversity.
 ```
