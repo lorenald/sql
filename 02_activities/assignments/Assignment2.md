@@ -54,7 +54,8 @@ The store wants to keep customer addresses. Propose two architectures for the CU
 **HINT:** search type 1 vs type 2 slowly changing dimensions. 
 
 ```
-Your answer...
+- Type 1 table will have columns: customer_id, street address, apartment/unit, city, postal_code, country.
+- Type 2 table will additionally have a column named address_id which will allow each customer to have more than one address, and "address_status" which will allow to differentiate whether an address is "past" or "current". Alternatively, it could include "address_date" instead of "address_id" to cross-check with the current date and so the employee could ask whether it has changed since.
 ```
 
 ***
@@ -182,5 +183,5 @@ Consider, for example, concepts of labour, bias, LLM proliferation, moderating c
 
 
 ```
-Your thoughts...
+The fact that all training models are labelled by a human introduces conscious and unconscious bias into the algorithm it is being later used for. It makes it imperative to introduce diversity in the development of the datasets that are used to train models, very relevant to this day where parts of the population refuse to accept the existence of diversity in our society and this has shown to impact the development of LLM.
 ```
